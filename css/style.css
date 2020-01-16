@@ -1,0 +1,113 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Prompt&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 800px;
+    background: #fefefe;
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    /* margin-left: 5%; */
+    text-align: center;
+    font-size: 50px;
+}
+
+.homepage-txt {
+    text-align: center;
+    display: block;
+}
+
+.homepage-txt-h2 {
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.homepage-txt-1 {
+    font-size: 20px;
+    margin-left: 25%;
+    width: 50%;
+    align-self: center;
+}
+
+.paragraaf .p {
+    color: grey;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-block-start: 5%;
+}
+
+hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-color: rgb(255, 255, 255);
+}
+
+.menu {
+    text-align: left;
+    margin-left: 75px;
+}
+
+ul {
+    margin-left: 5%;
+    margin-right: 5%;
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+    /* background-color: darkblue; */
+}
+
+li {
+    /* font: 1em sans-serif; */
+    float: left;
+}
+
+li a {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li.active a {
+    color: rgb(255, 255, 255);
+}
+
+li a:hover {
+    color: #ffffff;
+    transition: color 0, 2s linear;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+/* p {
+    color: red;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%; 
+    margin-block-start: 5%;
+} */
+
+/* .banner {
+    width: 500px;
+    height: 200px;
+} */
+
+.banner>img {
+    width: auto;
+    height: auto;
+    margin: 150px;
+    margin-bottom: 50px;
+}
+
+#mapid {
+    height: 400px;
+    width: 400px;
+}

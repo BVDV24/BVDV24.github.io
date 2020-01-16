@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-auto-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 60px;
+}
+
+.wrapper div {
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    text-align: center;
+}
+
+.wrapper div a {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 200px;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(122, 105, 110, 0.05);
+}
+
+.wrapper>div:hover>a {
+    display: block;
+}
+
+.wrapper>div>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper>div:hover>img {
+    filter: blur(6px)
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0em;
+    /* border: solid red 0 px; */
+}
+
+nav {
+    text-align: center;
+    /* padding-left: 50%; */
+    z-index: 5000;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 90px;
+    height: 100px;
+    padding-left: 5%;
+    /* padding-right: 50%; */
+    margin-right: 650px;
+    z-index: 10000000;
+}
+
+/* .home-hero {
+    background-image: url(/img/delta.jpg);
+    background-position: top center;
+    padding: 22.30em 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(10px);    
+} */
+
+.title {
+    height: 600px;
+    width: 100%;
+    border: solid red 1px;
+}
+
+.title-img {
+    width: 100%;
+    height: 600px;
+    /* padding-top: -500px; */
+    z-index: 1;
+}
+
+.title-txt {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: #FEFEFE;
+    /* border: solid green 1px; */
+    /* background-color: grey; */
+}
+
+.title-h1 {
+    font-size: 100px;
+    margin-bottom: -30px;
+}
+
+.title-p {
+    padding-left: 25%;
+    font-size: 24px;
+}
