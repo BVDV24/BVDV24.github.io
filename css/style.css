@@ -1,4 +1,4 @@
-@import url(@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Prompt&display=swap');
+@import url(@import URL('https://fonts.googleapis.com/css?family=EB+Garamond|Prompt&display=swap');
 
 body {
     padding: 0px;
@@ -107,7 +107,12 @@ li a:hover {
     margin-bottom: 50px;
 }
 
-#mapid {
+#rms {
     height: 400px;
-    width: 400px;
+    width: 100%;
+}
+
+#ganges {
+    height: 400px;
+    width: 100%;
 }
